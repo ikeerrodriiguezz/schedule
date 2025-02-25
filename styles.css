@@ -1,0 +1,196 @@
+*{
+	color:white;
+}
+
+@media screen and (max-width: 00px) {
+  #menu{
+    display: none;
+  }
+  #columna-a {
+    display: none;
+    width:0%;
+    height:0%;
+  }
+  #columna-b{
+    width:100%;
+    height:100%;
+  }
+}
+
+td:empty {
+  visibility: hidden;
+}
+body{
+    background-image:url(media/backgroundIker.png);
+    background-size: cover;
+}
+#cabecera{
+    font-size:40px;
+    background-color:yellow;
+}
+#menu{
+    padding:0.00001%;
+}
+
+#columna-b{
+  width:60%;
+  height:92%;
+    
+}
+#columna-a{
+    float:right;
+    width:20%;
+    height:92%;
+}
+#wrap {
+    margin: 35px 80px;
+    display: inline-block;
+    position: relative;
+    height: 40px;
+    float: right;
+    padding: 0;
+    position: relative;
+  }
+  
+  input[type="text"] {
+    height: 60px;
+    font-size: 55px;
+    display: inline-block;
+    font-family: "Lato";
+    font-weight: 100;
+    border: none;
+    outline: none;
+    color: #555;
+    padding: 3px;
+    padding-right: 60px;
+    width: 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: none;
+    z-index: 3;
+    transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+    cursor: pointer;
+  }
+  
+  input[type="text"]:focus:hover {
+    border-bottom: 1px solid #BBB;
+  }
+  
+  input[type="text"]:focus {
+    width: 700px;
+    z-index: 1;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    cursor: text;
+  }
+input[type="submit"] {
+    height: 67px;
+    width: 63px;
+    display: inline-block;
+    color:red;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADNQTFRFU1NT9fX1lJSUXl5e1dXVfn5+c3Nz6urqv7+/tLS0iYmJqampn5+fysrK39/faWlp////Vi4ZywAAABF0Uk5T/////////////////////wAlrZliAAABLklEQVR42rSWWRbDIAhFHeOUtN3/ags1zaA4cHrKZ8JFRHwoXkwTvwGP1Qo0bYObAPwiLmbNAHBWFBZlD9j0JxflDViIObNHG/Do8PRHTJk0TezAhv7qloK0JJEBh+F8+U/hopIELOWfiZUCDOZD1RADOQKA75oq4cvVkcT+OdHnqqpQCITWAjnWVgGQUWz12lJuGwGoaWgBKzRVBcCypgUkOAoWgBX/L0CmxN40u6xwcIJ1cOzWYDffp3axsQOyvdkXiH9FKRFwPRHYZUaXMgPLeiW7QhbDRciyLXJaKheCuLbiVoqx1DVRyH26yb0hsuoOFEPsoz+BVE0MRlZNjGZcRQyHYkmMp2hBTIzdkzCTc/pLqOnBrk7/yZdAOq/q5NPBH1f7x7fGP4C3AAMAQrhzX9zhcGsAAAAASUVORK5CYII=) center center no-repeat;
+    text-indent: -10000px;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    cursor: pointer;
+    opacity: 0.4;
+    cursor: pointer;
+    transition: opacity .4s ease;
+  }
+  
+  input[type="submit"]:hover {
+    opacity: 0.8;
+  }
+  
+.chedule{
+    width:100%;
+    height:100%;
+    
+}
+.BUTTON_XII {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    line-height: 40px;
+    color: #FFFFFF;
+    font-family: montserrat;
+    width: 100%;
+    height: 100%;
+    font-size: 215%;
+    font-weight: 100px;
+    background-color: rgba(246, 61, 61, 0);
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    float:none;
+ }
+ 
+ .BUTTON_XII:hover {
+    border: solid #337FED 1px;
+    background: #1e4dd0;
+    background-image: -webkit-linear-gradient(top, #1e4dd0, #3DF6B1);
+    background-image: -moz-linear-gradient(top, #1e4dd0, #3DF6B1);
+    background-image: -ms-linear-gradient(top, #1e4dd0, #3DF6B1);
+    background-image: -o-linear-gradient(top, #1e4dd0, #3DF6B1);
+    background-image: -webkit-gradient(to bottom, #1e4dd0, #3DF6B1);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+ @media screen and (max-width: 900px) {
+  .BUTTON_XII {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    line-height: 40px;
+    color: #FFFFFF;
+    font-family: montserrat;
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    font-weight: 100px;
+    background-color: rgba(246, 61, 61, 0);
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    float:none;
+
+  
+}
+  #menu{
+    display: none;
+  }
+  #columna-a {
+    display: none;
+    width:0%;
+    height:0%;
+  }
+  #columna-b{
+    width:100%;
+    height:100%;
+  }
+
+body{
+  background-image:url(/media/mobileiker.jpg);
+  background-size: cover;
+}
+
+}
+/*<!--Copyright ikeerrodriiguezz#2599-->
