@@ -4,8 +4,7 @@ pages:
     - cp -r * .public
   artifacts:
     paths:
-      - .public
-  pages:
-    path: .public
+      - .public/
   only:
     - main
+
