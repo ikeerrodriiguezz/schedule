@@ -171,7 +171,8 @@ input[type="submit"]:hover {
       margin-left: 0;
   }
   body {
-      background-image: url(../media/mobile.jpg);
+      background-color: #1a2a44; /* Dark blue/navy background for mobile */
+      /* background-image: url(../media/mobile.jpg); */
   }
   .BUTTON_XII {
       width: 80%;
