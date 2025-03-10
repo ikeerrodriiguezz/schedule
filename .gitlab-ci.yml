@@ -5,5 +5,7 @@ pages:
   artifacts:
     paths:
       - .public
+  pages:
+    path: .public
   only:
     - main
