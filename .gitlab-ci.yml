@@ -1,10 +1,9 @@
 pages:
   script:
-    - mkdir .public
-    - cp -r * .public
+    - echo "Deploying GitLab Pages"
   artifacts:
     paths:
-      - .public/
+      - public/
   only:
     - main
 
