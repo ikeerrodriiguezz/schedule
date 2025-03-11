@@ -21,17 +21,6 @@ body {
   animation: fadeIn 1s ease-in-out;
 }
 
-/* Header */
-#cabecera {
-  font-size: 40px;
-  background-color: yellow;
-  text-align: center;
-  padding: 15px;
-  font-weight: bold;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-}
-
 /* Menu */
 #menu {
   padding: 5px;
@@ -41,8 +30,8 @@ body {
 
 
 #menu a img {
-  width: 60px;  /* Set default width */
-  height: 60px; /* Set default height */
+  width: 60px;
+  height: 60px;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
@@ -92,10 +81,12 @@ th, td {
   text-align: center;
 }
 
+/* Table Header */
 th {
-  background: rgba(0, 0, 0, 0.7);
+  background: linear-gradient(to right, #003366, #001a33);
   text-transform: uppercase;
   font-weight: bold;
+  color: white;
 }
 
 td:empty {
@@ -149,7 +140,7 @@ input[type="submit"]:hover {
   font-size: 18px;
   text-align: center;
   color: white;
-  background: linear-gradient(to right, #5A69F5, #38B6FF);
+  background: linear-gradient(to right, #003366, #001a33);
   border-radius: 20px;
   text-decoration: none;
   transition: transform 0.3s, box-shadow 0.3s;
@@ -157,7 +148,8 @@ input[type="submit"]:hover {
 
 .BUTTON_XII:hover {
   transform: scale(1.1);
-  box-shadow: 0px 0px 15px #38B6FF;
+  box-shadow: 0px 0px 15px rgba(0, 51, 102, 0.7); 
+  background: linear-gradient(to right, #38B6FF, #5A69F5);
 }
 
 /* Mobile Responsive Adjustments */
@@ -171,8 +163,7 @@ input[type="submit"]:hover {
       margin-left: 0;
   }
   body {
-      background-color: #1a2a44; /* Dark blue/navy background for mobile */
-      /* background-image: url(../media/mobile.jpg); */
+      background-color: #1a2a44;
   }
   .BUTTON_XII {
       width: 80%;
