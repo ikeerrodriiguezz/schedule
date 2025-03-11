@@ -69,9 +69,15 @@ To set up the project locally:
 ## Responsive Design
 
 The page is fully responsive, with key changes for smaller screens:
+
 - The navigation menu (`#menu`) is hidden on screens smaller than 900px.
 - The schedule table expands to fill the full width of the screen, ensuring optimal usability on mobile devices.
 - Buttons scale down slightly on mobile to maintain clarity and ease of use.
+
+## Live Demo
+
+You can view the schedule webpage at the following link:
+[**Schedule Webpage**](https://ikeerrodriiguezz.gitlab.io/schedule/)
 
 ## Author
 
