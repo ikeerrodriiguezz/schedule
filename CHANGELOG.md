@@ -8,6 +8,20 @@ All notable changes to this project will be documented in this file.
 
 - Placeholder for upcoming features.
 
+## [1.0.2] - 2025-03-12
+
+### Added
+
+- Added a Google search bar with animations.
+- Centered placeholder text in the search bar.
+- Added a spacer between the search bar and the table for better layout.
+
+### Fixed
+
+- Improved table layout consistency across different browsers.
+- Fixed CSS issues with the search bar and table alignment.
+- Enhanced button styling for better visual feedback on hover.
+
 ## [1.0.1] - 2025-03-11
 
 ### Fixed
