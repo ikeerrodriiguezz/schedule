@@ -77,7 +77,7 @@ The page is fully responsive, with key changes for smaller screens:
 ## Live Demo
 
 You can view the schedule webpage at the following link:
-[**Schedule Webpage**](https://ikeerrodriiguezz.gitlab.io/schedule/)
+[**Schedule Webpage**](https://ikeerrodriiguezz.github.io/schedule/home.html)
 
 ## Changelog
 
@@ -85,4 +85,4 @@ See the full changelog [here](CHANGELOG.md).
 
 ## Author
 
-[**Iker Rodríguez**](https://gitlab.com/ikeerrodriiguezz)
+[**Iker Rodríguez**](https://github.com/ikeerrodriiguezz)
